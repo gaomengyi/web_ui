@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="WINDOWS-SCKQP55" name="pytest" skipped="0" tests="1" time="10.110" timestamp="2022-08-16T16:36:28.753875"><testcase classname="TestCases.test_login" file="TestCases\test_login.py" line="22" name="test_demo" time="0.007"><failure message="assert False">@pytest.mark.demo
+    @pytest.mark.usefixtures(&quot;fuc_demo&quot;)
+    def test_demo():
+        print(&quot;ttttttttt&quot;)
+&gt;       assert False
+E       assert False
+
+TestCases\test_login.py:27: AssertionError</failure></testcase></testsuite></testsuites>
